@@ -1,0 +1,18 @@
+[10:29:35.411] Global cache location '/home/olin/.cache/typescript/4.3', safe file path '/home/olin/code/fejkfront/node_modules/typescript/lib/typingSafeList.json', types map path /home/olin/code/fejkfront/node_modules/typescript/lib/typesMap.json
+[10:29:35.412] Processing cache location '/home/olin/.cache/typescript/4.3'
+[10:29:35.412] Trying to find '/home/olin/.cache/typescript/4.3/package.json'...
+[10:29:35.413] Finished processing cache location '/home/olin/.cache/typescript/4.3'
+[10:29:35.413] Process id: 84385
+[10:29:35.413] NPM location: /home/olin/.nvm/versions/node/v15.8.0/bin/npm (explicit '--npmLocation' not  provided)
+[10:29:35.413] validateDefaultNpmLocation: false
+[10:29:35.413] Npm config file: /home/olin/.cache/typescript/4.3/package.json
+[10:29:35.413] Npm config file: '/home/olin/.cache/typescript/4.3/package.json' is missing, creating new one...
+[10:29:35.414] Updating types-registry npm package...
+[10:29:35.414] Exec: /home/olin/.nvm/versions/node/v15.8.0/bin/npm install --ignore-scripts types-registry@latest
+[10:29:36.067]     Succeeded. stdout:
+    
+    added 1 package, and audited 2 packages in 572ms
+
+found 0 vulnerabilities
+
+[10:29:36.067] Updated types-registry npm package

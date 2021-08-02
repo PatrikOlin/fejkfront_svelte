@@ -1,0 +1,127 @@
+Info 0    [10:29:35.266] Starting TS Server
+Info 1    [10:29:35.266] Version: 4.3.5
+Info 2    [10:29:35.266] Arguments: /home/olin/.nvm/versions/node/v15.8.0/bin/node /home/olin/code/fejkfront/node_modules/.bin/tsserver --logFile /home/olin/code/fejkfront/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/ab2730ee8bdbbd92b2573bc3c93c0abe/tscancellation*
+Info 3    [10:29:35.266] Platform: linux NodeVersion: 15 CaseSensitive: true
+Info 4    [10:29:35.266] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [10:29:35.279] Search path: /home/olin/code/fejkfront/src
+Info 6    [10:29:35.279] For info: /home/olin/code/fejkfront/src/main.ts :: Config file name: /home/olin/code/fejkfront/tsconfig.json
+Info 7    [10:29:35.280] Creating configuration project /home/olin/code/fejkfront/tsconfig.json
+Info 8    [10:29:35.296] Config: /home/olin/code/fejkfront/tsconfig.json : {
+ "rootNames": [
+  "/home/olin/code/fejkfront/src/global.d.ts",
+  "/home/olin/code/fejkfront/src/main.ts"
+ ],
+ "options": {
+  "moduleResolution": 2,
+  "target": 4,
+  "importsNotUsedAsValues": 2,
+  "isolatedModules": true,
+  "sourceMap": true,
+  "strict": false,
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
+  "configFilePath": "/home/olin/code/fejkfront/tsconfig.json"
+ }
+}
+Info 9    [10:29:35.309] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 10   [10:29:36.252] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 1 structureChanged: true Elapsed: 942.9462370015681ms
+Info 11   [10:29:36.252] Project '/home/olin/code/fejkfront/tsconfig.json' (Configured)
+Info 12   [10:29:36.252] 	Files (112)
+
+Info 13   [10:29:36.252] -----------------------------------------------
+Info 14   [10:30:28.455] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 15   [10:30:28.468] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 2 structureChanged: false Elapsed: 12.688131000846624ms
+Info 16   [10:30:28.468] Different program with same set of files:: structureIsReused:: 2
+Info 17   [10:30:29.112] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 18   [10:30:29.141] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 3 structureChanged: false Elapsed: 28.875524001196027ms
+Info 19   [10:30:29.141] Different program with same set of files:: structureIsReused:: 2
+Info 20   [10:30:29.455] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 21   [10:30:29.482] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 4 structureChanged: false Elapsed: 26.738173998892307ms
+Info 22   [10:30:29.482] Different program with same set of files:: structureIsReused:: 2
+Info 23   [10:30:29.493] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 24   [10:30:29.499] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 5 structureChanged: false Elapsed: 5.91800899989903ms
+Info 25   [10:30:29.499] Different program with same set of files:: structureIsReused:: 2
+Info 26   [10:30:30.231] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 27   [10:30:30.239] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 6 structureChanged: false Elapsed: 8.116931999102235ms
+Info 28   [10:30:30.239] Different program with same set of files:: structureIsReused:: 2
+Info 29   [10:30:30.567] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 30   [10:30:30.577] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 7 structureChanged: false Elapsed: 10.185084998607635ms
+Info 31   [10:30:30.577] Different program with same set of files:: structureIsReused:: 2
+Info 32   [10:30:35.198] Format host information updated
+Info 33   [10:30:35.397] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 34   [10:30:35.403] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 8 structureChanged: false Elapsed: 5.649236001074314ms
+Info 35   [10:30:35.403] Different program with same set of files:: structureIsReused:: 2
+Info 36   [10:30:35.733] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 37   [10:30:35.740] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 9 structureChanged: false Elapsed: 6.093573000282049ms
+Info 38   [10:30:35.740] Different program with same set of files:: structureIsReused:: 2
+Info 39   [10:31:24.869] DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src :: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Config: /home/olin/code/fejkfront/tsconfig.json WatchType: Wild card directory
+Info 40   [10:31:24.871] Elapsed:: 2.093927999958396ms DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src :: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Config: /home/olin/code/fejkfront/tsconfig.json WatchType: Wild card directory
+Info 41   [10:31:24.871] DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src :: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Project: /home/olin/code/fejkfront/tsconfig.json WatchType: Failed Lookup Locations
+Info 42   [10:31:24.872] Elapsed:: 0.5411799997091293ms DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src :: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Project: /home/olin/code/fejkfront/tsconfig.json WatchType: Failed Lookup Locations
+Info 43   [10:31:25.136] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 44   [10:31:25.185] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 10 structureChanged: true Elapsed: 48.74265700019896ms
+Info 45   [10:31:25.185] Different program with same set of files:: structureIsReused:: 1
+Info 46   [10:31:27.626] Before ensureProjectForOpenFiles:
+Info 47   [10:31:27.626] After ensureProjectForOpenFiles:
+Info 48   [10:31:27.627] got projects updated in background, updating diagnostics for /home/olin/code/fejkfront/src/main.ts
+Info 49   [10:31:44.283] DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src :: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Config: /home/olin/code/fejkfront/tsconfig.json WatchType: Wild card directory
+Info 50   [10:31:44.285] Elapsed:: 0.9396609999239445ms DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src :: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Config: /home/olin/code/fejkfront/tsconfig.json WatchType: Wild card directory
+Info 51   [10:31:44.285] DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src :: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Project: /home/olin/code/fejkfront/tsconfig.json WatchType: Failed Lookup Locations
+Info 52   [10:31:44.285] Elapsed:: 0.12696300074458122ms DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src :: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Project: /home/olin/code/fejkfront/tsconfig.json WatchType: Failed Lookup Locations
+Info 53   [10:31:44.545] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 54   [10:31:44.595] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 11 structureChanged: true Elapsed: 49.61305299960077ms
+Info 55   [10:31:44.595] Different program with same set of files:: structureIsReused:: 1
+Info 56   [10:31:47.041] Before ensureProjectForOpenFiles:
+Info 57   [10:31:47.041] After ensureProjectForOpenFiles:
+Info 58   [10:31:47.041] got projects updated in background, updating diagnostics for /home/olin/code/fejkfront/src/main.ts
+Info 59   [10:33:46.868] DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src/components/card/Card.svelte 0:: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Config: /home/olin/code/fejkfront/tsconfig.json WatchType: Wild card directory
+Info 60   [10:33:46.868] Project: /home/olin/code/fejkfront/tsconfig.json Detected file add/remove of non supported extension: /home/olin/code/fejkfront/src/components/card/Card.svelte
+Info 61   [10:33:46.868] Elapsed:: 0.2847599983215332ms DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src/components/card/Card.svelte 0:: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Config: /home/olin/code/fejkfront/tsconfig.json WatchType: Wild card directory
+Info 62   [10:33:46.868] DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src/components/card/Card.svelte 0:: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Project: /home/olin/code/fejkfront/tsconfig.json WatchType: Failed Lookup Locations
+Info 63   [10:33:46.869] Elapsed:: 0.10914799943566322ms DirectoryWatcher:: Triggered with /home/olin/code/fejkfront/src/components/card/Card.svelte 0:: WatchInfo: /home/olin/code/fejkfront/src 1 undefined Project: /home/olin/code/fejkfront/tsconfig.json WatchType: Failed Lookup Locations
+Info 64   [10:36:20.667] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 65   [10:36:20.692] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 12 structureChanged: false Elapsed: 24.558403000235558ms
+Info 66   [10:36:20.692] Different program with same set of files:: structureIsReused:: 2
+Info 67   [10:36:20.695] getCompletionData: Get current token: 0.07902000099420547
+Info 68   [10:36:20.695] getCompletionData: Is inside comment: 0.007061999291181564
+Info 69   [10:36:20.695] getCompletionData: Get previous token 1: 0.07971899956464767
+Info 70   [10:36:20.695] getCompletionData: Get previous token 2: 0.05331699922680855
+Info 71   [10:36:20.695] getCompletionsAtPosition: isCompletionListBlocker: 0.19111800007522106
+Info 72   [10:36:20.713] getCompletionData: Semantic work: 18.053988998755813
+Info 73   [10:36:20.739] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 24.975803000852466
+Info 74   [10:36:21.588] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 75   [10:36:21.595] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 13 structureChanged: false Elapsed: 6.244216999039054ms
+Info 76   [10:36:21.595] Different program with same set of files:: structureIsReused:: 2
+Info 77   [10:36:23.008] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 78   [10:36:23.030] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 14 structureChanged: false Elapsed: 22.198387999087572ms
+Info 79   [10:36:23.030] Different program with same set of files:: structureIsReused:: 2
+Info 80   [10:36:23.735] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 81   [10:36:23.754] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 15 structureChanged: false Elapsed: 18.361692000180483ms
+Info 82   [10:36:23.754] Different program with same set of files:: structureIsReused:: 2
+Info 83   [10:36:26.139] Format host information updated
+Info 84   [10:36:26.353] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 85   [10:36:26.358] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 16 structureChanged: false Elapsed: 5.074509000405669ms
+Info 86   [10:36:26.358] Different program with same set of files:: structureIsReused:: 2
+Info 87   [10:36:26.668] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 88   [10:36:26.673] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 17 structureChanged: false Elapsed: 4.893279999494553ms
+Info 89   [10:36:26.673] Different program with same set of files:: structureIsReused:: 2
+Info 90   [10:36:30.375] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 91   [10:36:30.380] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 18 structureChanged: false Elapsed: 5.141991000622511ms
+Info 92   [10:36:30.380] Different program with same set of files:: structureIsReused:: 2
+Info 93   [10:36:30.390] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 94   [10:36:30.399] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 19 structureChanged: false Elapsed: 8.749293001368642ms
+Info 95   [10:36:30.399] Different program with same set of files:: structureIsReused:: 2
+Info 96   [10:36:30.773] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 97   [10:36:30.791] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 20 structureChanged: false Elapsed: 17.683526000007987ms
+Info 98   [10:36:30.791] Different program with same set of files:: structureIsReused:: 2
+Info 99   [10:36:33.350] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 100  [10:36:33.361] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 21 structureChanged: false Elapsed: 10.990517999976873ms
+Info 101  [10:36:33.361] Different program with same set of files:: structureIsReused:: 2
+Info 102  [10:36:34.436] Format host information updated
+Info 103  [10:36:34.647] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 104  [10:36:34.652] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 22 structureChanged: false Elapsed: 5.027364999055862ms
+Info 105  [10:36:34.652] Different program with same set of files:: structureIsReused:: 2
+Info 106  [10:36:34.968] Starting updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json
+Info 107  [10:36:34.974] Finishing updateGraphWorker: Project: /home/olin/code/fejkfront/tsconfig.json Version: 23 structureChanged: false Elapsed: 5.795283999294043ms
+Info 108  [10:36:34.974] Different program with same set of files:: structureIsReused:: 2

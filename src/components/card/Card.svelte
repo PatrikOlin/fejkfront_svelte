@@ -2,7 +2,7 @@
     export let props: any;
 </script>
 
-<main>
+<main class="col">
     <h1>Här vare kort</h1>
     <ul>
 	    <li>
@@ -31,7 +31,6 @@
 		text-align: left;
 		padding: 1em;
 		max-width: 350px;
-		margin: 0 auto;
         background-color: coral;
         border-radius: 5%;
 	}

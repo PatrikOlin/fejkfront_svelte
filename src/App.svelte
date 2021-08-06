@@ -4,28 +4,55 @@
 
 	export let pageTitle: string;
     let items = [];
+ 	let numOfPeople = 1;
+ 	let options = Array.from({length: 10}, (_, i) => i+1);
 
  	onMount(async () => {
-		const res = await fetch('https://api.fejk.company/v1/people?amount=2')
-		items = await res.json()
+		getPeople()
 		console.log(items)
+		console.log(options)
 	})
+
+ 	async function getPeople() {
+		await fetch(`https://api.fejk.company/v1/people?amount=${numOfPeople}`)
+		.then(r => r.json())
+		.then(data => {
+			items = data;
+		});
+	}
+
 </script>
 
 <main>
 	<h1>{pageTitle}</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	{#each items as child}
-	<Card props={child} />
-	{/each}
+
+	<section>
+		<select
+			name="people"
+			bind:value={numOfPeople}
+			on:change="{getPeople}"
+		>
+			{#each options as opt}
+			<option value={opt}>
+				{opt}
+			</option>
+			{/each}
+		</select>
+	</section>
+	<section class="wrapper">
+		{#each items as child}
+			<Card props={child} />
+		{/each}
+	</section>
 </main>
 
 <style>
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
 		margin: 0 auto;
+		display:flex;
+		flex-direction: column;
 	}
 
 	h1 {
@@ -40,4 +67,5 @@
 			max-width: none;
 		}
 	}
+
 </style>
